@@ -23,6 +23,8 @@ main {
   border: 1px solid #000;
   background-color: #dddddd;
   font-size: 2rem;
+  height: 100%;
+  width: 100%;
 }
 
 .none {
