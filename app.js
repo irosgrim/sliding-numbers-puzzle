@@ -122,6 +122,8 @@ const createBtns = (size = 3) => {
 };
 
 app.style['grid-template-columns'] = `repeat(${gridSize}, 1fr)`;
+app.style['grid-template-rows'] = `repeat(${gridSize}, 1fr)`;
+
 createBtns(gridSize);
 
 play.addEventListener('click', () => {
